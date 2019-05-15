@@ -1,4 +1,6 @@
 
+const util = require('util');
+
 const ENUM = {
 		LIGTH: 90,
 		DARK: 30,
@@ -36,46 +38,52 @@ class Color {
 	}
 
 	black(str) {
-		return this.format('black', str);
+		return this.format('black', util.format(str));
 	}
 
 	red(str) {
-		return this.format('red', str);
+		return this.format('red', util.format(str));
 	}
 
 	green(str) {
-		return this.format('green', str);
+		return this.format('green', util.format(str));
 	}
 
 	yellow(str) {
-		return this.format('yellow', str);
+		return this.format('yellow', util.format(str));
 	}
 
 	blue(str) {
-		return this.format('blue', str);
+		return this.format('blue', util.format(str));
 	}
 
 	magenta(str) {
-		return this.format('magenta', str);
+		return this.format('magenta', util.format(str));
 	}
 
 	cyan(str) {
-		return this.format('cyan', str);
+		return this.format('cyan', util.format(str));
 	}
 
 	white(str) {
-		return this.format('white', str);
+		return this.format('white', util.format(str));
 	}
 
 	none(str) {
-		return this.format('none', str);
+		return this.format('none', util.format(str));
 	}
 
 	toString(join = ' ') {
+		if (!this._chain) {
+			throw new Error('not a chain why call this?');
+		}
 		return this.toArray().join(join);
 	}
 
 	toArray() {
+		if (!this._chain) {
+			throw new Error('not a chain why call this?');
+		}
 		return this._chaindata;
 	}
 
