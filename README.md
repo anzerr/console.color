@@ -4,7 +4,7 @@ wrap strings it color code for console display
 
 #### `Install`
 ``` bash
-npm install --save git+https://git@github.com/anzerr/console.color.git
+npm install --save git+https://github.com/anzerr/console.color.git
 ```
 
 ### `Example`
