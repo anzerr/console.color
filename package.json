@@ -1,6 +1,6 @@
 {
 	"name": "console.color",
-	"version": "1.0.4",
+	"version": "1.0.6",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -10,7 +10,6 @@
 	"author": "anzerr",
 	"license": "MIT",
 	"devDependencies": {
-		"eslint": "5.11.1",
 		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
 	},
 	"eslintConfig": {
