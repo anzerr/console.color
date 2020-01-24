@@ -1,30 +1,34 @@
 {
 	"name": "console.color",
 	"version": "1.0.8",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
+	"description": "wrap color around inputs",
+	"keywords": [
+		"console",
+		"nodejs",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/console.color#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/console.color/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:anzerr/console.color.git"
 	},
+	"license": "MIT",
+	"author": "anzerr",
+	"main": "index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/anzerr/console.color/issues"
-	},
-	"homepage": "https://github.com/anzerr/console.color#readme"
+	}
 }

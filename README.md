@@ -1,5 +1,7 @@
 
 ### `Intro`
+![GitHub Actions status | publish](https://github.com/anzerr/console.color/workflows/publish/badge.svg)
+
 wrap strings it color code for console display
 
 #### `Install`
