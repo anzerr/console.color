@@ -1,6 +1,6 @@
 {
 	"name": "console.color",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "wrap color around inputs",
 	"keywords": [
 		"console",
