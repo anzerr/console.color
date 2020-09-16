@@ -26,5 +26,6 @@ declare class Color {
 	none(str: any): string;
 }
 
-declare const _default: Color;
-export = _default;
+declare const out: Color;
+export default out;
+export {};

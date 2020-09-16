@@ -90,8 +90,9 @@ class Color {
 }
 
 module.exports = (() => {
-	let a = new Color();
+	const a = new Color();
 	a.light = a;
 	a.dark = new Color(a.chain, ENUM.DARK);
+	a.default = a;
 	return a;
 })();
